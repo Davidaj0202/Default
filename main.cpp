@@ -3,4 +3,6 @@
 #include "head.hpp"
 using namespace std;
 
-main();
+int main(){
+    print("Hello World");
+}
