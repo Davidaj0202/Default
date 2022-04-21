@@ -2,12 +2,11 @@
 #include <string>
 using namespace std;
 
+string strtf(bool i);
+
 template <typename T> void print(const T variable,const bool new_line=true){
-    if(variable==true){
-        cout<<"true";
-    }
-    else if(variable==false){
-        cout<<"false";
+    if(variable==true||variable==false){
+        cout<<strtf(variable);
     }
     else{
         cout<<variable;
@@ -16,5 +15,3 @@ template <typename T> void print(const T variable,const bool new_line=true){
         cout<<"\n";
     }
 }
-
-int main();
