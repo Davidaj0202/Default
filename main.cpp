@@ -4,5 +4,7 @@
 using namespace std;
 
 int main(){
-    print(false);
+    int j;
+    input(j,"hello: ");
+    print(j);
 }
