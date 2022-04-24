@@ -3,11 +3,14 @@
 #include "head.hpp"
 using namespace std;
 
-string strtf(bool i){
-    if(i){
+string strtf(bool i)
+{
+    if (i)
+    {
         return "True";
     }
-    else{
+    else
+    {
         return "False";
     }
 }

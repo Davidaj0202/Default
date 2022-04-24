@@ -3,8 +3,9 @@
 #include "head.hpp"
 using namespace std;
 
-int main(){
+int main()
+{
     int j;
-    input(j,"hello: ");
+    input(j, "hello: ");
     print(j);
 }
